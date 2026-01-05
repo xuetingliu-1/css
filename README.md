@@ -7,6 +7,8 @@ We propose Clinical Scenario Simulation (CSS), a two-stage inference framework t
 Repository Structure
 The codebase is organized by model family to accommodate specific chat templates and tokenization requirements.
 
+```text
+.
 ├── medbullets/       # Data scripts and files for MedBullets (Op4/Op5)
 ├── medqa/            # Data scripts and files for MedQA (USMLE)
 ├── src_llama/        # Inference scripts for Llama-3.1-8B (General)
