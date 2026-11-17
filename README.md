@@ -1,4 +1,5 @@
-# CSS for Medical Multiple-Choice Question Answering
+# Do Prompting Strategies Transfer to MCQA in Medical LLMs? A Comparative Analysis & Order-Invariant Clinical Scenario Simulation 
+# Accepted by EACL 2027 Findings 
 
 CSS generates an option-conditioned counterfactual scenario for each candidate answer, evaluates the scenarios under different presentation orders, and aggregates the judge's predictions. This repository provides an inference framework for **nine language models** on **MedQA** and **MedBullets**, with both four-option and five-option questions.
 
