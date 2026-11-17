@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+outputs/
+models/
+.DS_Store
+__MACOSX/

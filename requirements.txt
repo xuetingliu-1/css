@@ -1,0 +1,9 @@
+# Install PyTorch appropriate to your CUDA/CPU environment first.
+torch>=2.5
+transformers>=5.0,<6
+accelerate>=1.12
+mistral-common>=1.11.2
+numpy
+tqdm
+sentencepiece
+
