@@ -76,6 +76,35 @@ python run.py --help
 | MedBullets-4 | 4 | 308 | `data/medbullets_op4.csv` | `medbullets_csv` |
 | MedBullets-5 | 5 | 308 | `data/medbullets_op5.csv` | `medbullets_csv` |
 
+### Dataset Citations
+
+**MedQA — Jin et al. (2021)**
+
+```bibtex
+@article{jin2021disease,
+  title={What disease does this patient have? a large-scale open domain question answering dataset from medical exams},
+  author={Jin, Di and Pan, Eileen and Oufattole, Nassim and Weng, Wei-Hung and Fang, Hanyi and Szolovits, Peter},
+  journal={Applied Sciences},
+  volume={11},
+  number={14},
+  pages={6421},
+  year={2021},
+  publisher={MDPI}
+}
+```
+
+**MedBullets — Chen et al. (2025)**
+
+```bibtex
+@inproceedings{chen2025benchmarking,
+  title={Benchmarking large language models on answering and explaining challenging medical questions},
+  author={Chen, Hanjie and Fang, Zhouxiang and Singla, Yash and Dredze, Mark},
+  booktitle={Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)},
+  pages={3563--3599},
+  year={2025}
+}
+```
+
 CSS detects the dataset format from the file extension and does not take `--data_type`.
 
 ## Running Inference
